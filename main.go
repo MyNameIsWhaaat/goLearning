@@ -28,4 +28,7 @@ func main() {
 	b := []int{6, 2, 4, 23, 23, 9}
 
 	fmt.Printf("%v\n", lessons.Intersection(a, b))
+
+	a1 := []int{1, 2, 0, 3, 2, 1, 5, 1, 9, 6}
+	fmt.Printf("%v\n", lessons.DuplNumArray(a1))
 }
